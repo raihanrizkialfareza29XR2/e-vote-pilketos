@@ -1,0 +1,25 @@
+.countdowns div:before {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #ff0;
+    color: #333;
+    font-style: 0.35em;
+    line-height: 35px;
+}
+
+.countdowns div#day::before{
+    content: 'Hari';
+}
+.countdowns div#hour::before{
+    content: 'Jam';
+}
+.countdowns div#minute::before{
+    content: 'Menit';
+}
+.countdowns div#second::before{
+    content: 'Detik';
+}

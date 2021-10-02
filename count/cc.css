@@ -1,0 +1,60 @@
+.day {
+    content: '';
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 500;
+}
+.hour {
+    content: '';
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 500;
+}
+.minute {
+    content: '';
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 500;
+}
+.second {
+    content: '';
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 500;
+}
+.day:before {
+    content: 'Day';
+}
+.hour:before {
+    content: 'Jam';
+}
+.minute:before {
+    content: 'Menit';
+}
+.second:before {
+    content: 'Detik';
+}
